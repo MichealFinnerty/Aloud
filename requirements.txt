@@ -1,0 +1,10 @@
+Flask==3.0.3
+Werkzeug==3.0.3
+gunicorn==22.0.0
+psycopg2-binary==2.9.9
+pypdf==4.3.1
+mutagen==1.47.0
+ebooklib==0.18
+beautifulsoup4==4.12.3
+edge-tts==6.1.12
+PyMuPDF==1.24.9
