@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting… — Aloud</title>
+<script>
+  // The reader now lives inside library.html itself (so audio can keep
+  // playing while you browse the library), this page just forwards
+  // any old link straight there.
+  var params = new URLSearchParams(window.location.search);
+  var id = params.get('doc');
+  window.location.replace('library.html' + (id ? ('?doc=' + encodeURIComponent(id)) : ''));
+</script>
+</head>
+<body></body>
+</html>
